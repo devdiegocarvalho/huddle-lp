@@ -1,0 +1,30 @@
+/* Global configurations */
+
+/* Colors */
+:root {
+  /* Primary */
+  --color-p1: hsl(322, 100%, 66%);
+
+  /* Neutral */
+  --color-1: hsl(193, 100%, 96%);
+  --color-2: hsl(192, 100%, 9%);
+  --color-3: hsl(208, 11%, 55%);
+}
+
+.color-p1 {
+  color: var(--color-p1);
+}
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-3 {
+  color: var(--color-3);
+}
+
+/* Typography */
