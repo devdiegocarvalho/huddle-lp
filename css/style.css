@@ -1,4 +1,32 @@
 /* Global configurations */
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1280px;
+}
 
 /* Colors */
 :root {
@@ -28,3 +56,15 @@
 }
 
 /* Typography */
+
+.font-1 {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.font-2 {
+  font: 400 1.125rem/1.35 "Open Sans", sans-serif;
+}
+
+.font-2-l {
+  font: 700 1.125rem/1.35 "Open Sans", sans-serif;
+}
